@@ -1,0 +1,51 @@
+/* Style pour les images */
+.container {
+    display: flex; /* Utilisation de flexbox pour aligner les éléments */
+    align-items: flex-start; /* Aligner les éléments en haut */
+  }
+  
+  .image-container {
+    display: flex; /* Utilisation de flexbox pour aligner les images */
+  }
+  
+  .image {
+    width: 30%; /* Largeur des images */
+    margin-right: 20px; /* Espace entre les images */
+  }
+  
+  /* Style pour la zone de liste à gauche */
+  .sidebar {
+    width: 20%; /* Largeur de la zone de liste */
+    background-color: #f4f4f4; /* Couleur de fond */
+    padding: 20px; /* Espacement intérieur */
+    box-sizing: border-box; /* Inclure les bordures et le rembourrage dans la largeur/hauteur totale */
+  }
+  
+  .sidebar h2 {
+    margin-top: 0; /* Supprimer la marge supérieure par défaut */
+  }
+  
+  /* Style pour les liens dans la liste */
+  .sidebar ul {
+    list-style: none; /* Pas de puces */
+    padding: 0;
+  }
+  
+  .sidebar li {
+    margin-bottom: 10px; /* Espacement entre les éléments de liste */
+  }
+  
+  .sidebar a {
+    display: block; /* Pour occuper toute la largeur */
+    background-color: #ddd; /* Couleur de fond des boutons */
+    color: #333; /* Couleur du texte */
+    padding: 10px 15px; /* Espacement intérieur */
+    text-decoration: none; /* Pas de soulignement */
+    border-radius: 5px; /* Coins arrondis */
+    transition: background-color 0.3s; /* Transition fluide pour le changement de couleur de fond */
+  }
+  
+  .sidebar a:hover {
+    background-color: #ccc; /* Changement de couleur de fond au survol */
+  }
+  
