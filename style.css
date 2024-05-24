@@ -92,6 +92,7 @@ h2 {
     width: 30%; /* Ajustez la taille des images selon vos besoins */
     margin: 10px; /* Espacement entre les images */
 }
+
 .barre-horizontal {
     border: none;
     border-top: 1px solid rgb(231, 227, 227);
