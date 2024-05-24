@@ -33,9 +33,37 @@ li a:hover {
     background-color: grey;
     border-radius: 10px;
 }
+.search-bar {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.search-bar form {
+    display: flex;
+    align-items: center;
+}
+
+.search-bar input[type="text"] {
+    padding: 5px;
+    width: 200px;
+    margin-right: 10px;
+
+}
+
+.search-bar button {
+    padding: 5px; 
+    border: none; 
+    background-color: #fff; 
+    border-radius: 3px;
+    height: 30px; 
+    cursor: pointer; 
+}
 
 .base {
     position: relative;
+}
+.base1 {
+    width: 100%;
 }
 
 .image-text {
@@ -47,3 +75,54 @@ li a:hover {
     font-size: 100px;
     
 }
+h2 {
+    text-align: center;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.image-container {
+    margin-top: 20px;
+}
+.image-container .row {
+    display: flex; /* Utilisation de flexbox pour aligner les images en ligne */
+    justify-content: center; /* Centrage horizontal des images */
+}
+.image-container .row .image {
+    width: 30%; /* Ajustez la taille des images selon vos besoins */
+    margin: 10px; /* Espacement entre les images */
+}
+.barre-horizontal {
+    border: none;
+    border-top: 1px solid rgb(231, 227, 227);
+    margin: 20px 0;
+}
+.footer-menu {
+    margin-top: 20px;
+    display: flex;
+    padding: 20px 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.footer-column h3 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.footer-column ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-column li {
+    text-align: center;
+    margin: 5px 0;
+}
+
+.footer-column a {
+    color: white;
+    text-decoration: none;
+}
+

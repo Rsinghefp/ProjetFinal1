@@ -20,23 +20,23 @@
     font-family: Arial, Helvetica, sans-serif;
 }
   
-  .menu ul {
+.menu ul {
     list-style: none; 
     padding: 0;
 
 }
   
-  .menu li {
+.menu li {
     display: inline-block; 
     margin-right: 20px; 
 }
   
-  .menu a {
+.menu a {
     text-decoration: none; 
     color: #fff; 
 }
   
-  .menu a:hover {
+.menu a:hover {
     color:black;
     background-color: white;
 }
@@ -48,14 +48,14 @@
     display: flex; 
 }
   
-  .search-bar input {
+.search-bar input {
     padding: 6px; 
     border: none; 
     border-radius: 3px; 
     margin-right: 5px; 
 }
   
-  .search-bar button {
+.search-bar button {
     padding: 6px 10px; 
     border: none; 
     background-color: #fff; 
