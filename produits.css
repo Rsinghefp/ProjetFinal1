@@ -43,14 +43,6 @@
     background-color: white;
 }
 
-.search-bar {
-    margin-right: 10px;
-    display: flex;
-}
-
-.search-bar form {
-    display: flex;
-}
 
 .search-bar input {
     padding: 6px;
@@ -59,14 +51,7 @@
     margin-right: 5px;
 }
 
-.search-bar button {
-    padding: 6px 10px;
-    border: none;
-    background-color: #fff;
-    color: #333;
-    border-radius: 3px;
-    cursor: pointer;
-}
+
 
 /* Style pour la section du produit */
 .product-container {

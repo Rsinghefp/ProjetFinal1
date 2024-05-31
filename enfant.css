@@ -1,111 +1,91 @@
 .header {
-    display: flex;
-    align-items: center; 
-    width: 100%;
-    background-color: black;
-    margin-bottom: 10px;
+  display: flex; 
+  align-items: center; 
+  width: 100%;
+  background-color: black;
+  margin-bottom: 10px;
 }
 .logo {
-    width: 72px; 
-    height: 27px;
-    margin-right: 20px; 
-    margin-left: 10px;
+  width: 72px; 
+  height: 27px; 
+  margin-right: 20px; 
+  margin-left: 10px;
 }
 .menu {
-    flex: 1;
-    text-align: center; /* Centrage du texte */
-    background-color: black; 
-    color: #fff; 
-    padding: 10px 0; 
-    font-family: Arial, Helvetica, sans-serif;
+  flex: 1;
+  text-align: center;
+  color: #fff; 
+  padding: 10px 0; 
+  font-family: Arial, Helvetica, sans-serif;
 }
-  
-  .menu ul {
-    list-style: none; 
-    padding: 0;
+
+.menu ul {
+  list-style: none; 
+  padding: 0;
 
 }
-  
-  .menu li {
-    display: inline-block; 
-    margin-right: 20px; /* Espacement entre les éléments de la liste */
+
+.menu li {
+  display: inline-block; 
+  margin-right: 20px; 
 }
-  
-  .menu a {
-    text-decoration: none; 
-    color: #fff; 
+
+.menu a {
+  text-decoration: none; 
+  color: #fff; 
 }
-  
-  .menu a:hover {
-    color:black;
-    background-color: white;
+
+.menu a:hover {
+  color:black;
+  background-color: white;
 }
-.search-bar {
-    margin-right: 10px;
-    display: flex;
+
+
+.search-bar input {
+  padding: 6px; 
+  border: none; 
+  border-radius: 3px; 
+  margin-right: 5px; 
 }
-.search-bar form {
-    display: flex; 
-}
-  
-  .search-bar input {
-    padding: 6px; 
-    border: none; 
-    border-radius: 3px; 
-    margin-right: 5px; 
-}
-  
-  .search-bar button {
-    padding: 6px 10px; 
-    border: none; 
-    background-color: #fff; 
-    color: #333; 
-    border-radius: 3px; 
-    cursor: pointer; 
-}
-  
-  
+
+
+
 .container {
-    display: flex; 
-    align-items: flex-start; 
+  display: flex; 
+  align-items: flex-start; /* Aligner les éléments en haut */
 }
 .sidebar {
-    width: 20%; 
-    background-color: white; 
-    padding: 20px; 
-    box-sizing: border-box;
-    margin-right: 20px;
-    font-family: Arial, Helvetica, sans-serif;
+  width: 20%; 
+  background-color: white; 
+  padding: 20px; 
+  box-sizing: border-box;
+  margin-right: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  position: sticky;
+  
 }
 .sidebar ul {
-    list-style: none; 
-    padding: 0;
-}
-  
-  .sidebar li {
-    margin-bottom: 10px; /* Espacement entre les éléments de liste */
-    
-}
-  
-  .sidebar a {
-    display: block; /* Pour occuper toute la largeur */
-    color: black; /* Couleur du texte */
-    padding: 10px 15px; /* Espacement intérieur */
-    text-decoration: none; /* Pas de soulignement */
-    border-radius: 5px; /* Coins arrondis */
-    transition: background-color 0.3s; /* Transition fluide pour le changement de couleur de fond */
-}
-.sidebar a:hover {
-    color: white;
-    background-color: black;
+  list-style: none; 
+  padding: 0;
 }
 
-.image-container .row {
-    display: flex; /* Utilisation de flexbox pour aligner les images en ligne */
-    justify-content: center; /* Centrage horizontal des images */
+.sidebar li {
+  margin-bottom: 10px; /* Espacement entre les éléments de liste */
+  
 }
-.image-container .row .image {
-    width: 30%; /* Ajustez la taille des images selon vos besoins */
-    margin: 10px; /* Espacement entre les images */
+
+.sidebar a {
+  display: block; /* Pour occuper toute la largeur */
+  color: black; /* Couleur du texte */
+  padding: 10px 15px; /* Espacement intérieur */
+  text-decoration: none; /* Pas de soulignement */
+  border-radius: 5px; /* Coins arrondis */
+  transition: background-color 0.3s; /* Transition fluide pour le changement de couleur de fond */
 }
+.sidebar a:hover {
+  color: white;
+  
+}
+
+
 

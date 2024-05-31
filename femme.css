@@ -40,13 +40,7 @@
     color:black;
     background-color: white;
 }
-.search-bar {
-    margin-right: 10px;
-    display: flex;
-}
-.search-bar form {
-    display: flex;
-}
+
   
 .search-bar input {
     padding: 6px; 
@@ -99,17 +93,6 @@
     color: white;
     background-color: black;
 } 
-.image-container .row {
-    display: flex; /* Utilisation de flexbox pour aligner les images en ligne */
-    justify-content: center; /* Centrage horizontal des images */
-}
-.image-container .row .image {
-    width: 30%; /* Ajustez la taille des images selon vos besoins */
-    margin: 10px; /* Espacement entre les images */
-}
-
-
-  
 
 
 

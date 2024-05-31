@@ -14,7 +14,6 @@
 .menu {
     flex: 1;
     text-align: center;
-    background-color: black; 
     color: #fff; 
     padding: 10px 0; 
     font-family: Arial, Helvetica, sans-serif;
@@ -40,13 +39,7 @@
     color:black;
     background-color: white;
 }
-.search-bar {
-    margin-right: 10px;
-    display: flex;
-}
-.search-bar form {
-    display: flex; 
-}
+
   
 .search-bar input {
     padding: 6px; 
@@ -55,15 +48,7 @@
     margin-right: 5px; 
 }
   
-.search-bar button {
-    padding: 6px 10px; 
-    border: none; 
-    background-color: #fff; 
-    color: #333; 
-    border-radius: 3px; 
-    cursor: pointer; 
-}
-  
+
   
 .container {
     display: flex; 
@@ -84,12 +69,12 @@
     padding: 0;
 }
   
-  .sidebar li {
+.sidebar li {
     margin-bottom: 10px; /* Espacement entre les éléments de liste */
     
 }
   
-  .sidebar a {
+.sidebar a {
     display: block; /* Pour occuper toute la largeur */
     color: black; /* Couleur du texte */
     padding: 10px 15px; /* Espacement intérieur */
@@ -99,15 +84,6 @@
 }
 .sidebar a:hover {
     color: white;
-    background-color: black;
-}
-
-.image-container .row {
-    display: flex; /* Utilisation de flexbox pour aligner les images en ligne */
-    justify-content: center; /* Centrage horizontal des images */
-}
-.image-container .row .image {
-    width: 30%; /* Ajustez la taille des images selon vos besoins */
-    margin: 10px; /* Espacement entre les images */
+    
 }
 
