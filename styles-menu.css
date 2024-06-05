@@ -1,0 +1,173 @@
+.header {
+    display: flex; 
+    align-items: center; 
+    width: 100%;
+    background-color: black;
+    margin-bottom: 10px;
+}
+
+.logo {
+    width: 72px; 
+    height: 27px; 
+    margin: 0 20px 0 10px;
+}
+
+.menu {
+    flex: 1;
+    text-align: center;
+    color: #fff; 
+    padding: 10px 0; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.menu ul {
+    list-style: none; 
+    padding: 0;
+}
+
+.menu li {
+    display: inline-block; 
+    margin-right: 20px; 
+}
+
+.menu a {
+    text-decoration: none; 
+    color: #fff; 
+}
+
+.menu a:hover {
+    color: black;
+    background-color: white;
+}
+
+.search-bar input {
+    padding: 6px; 
+    border: none; 
+    border-radius: 3px; 
+    margin-right: 5px; 
+}
+
+.container {
+    display: flex; 
+    align-items: flex-start; /* Aligner les éléments en haut */
+}
+
+.sidebar {
+    width: 20%; 
+    background-color: white; 
+    padding: 20px; 
+    box-sizing: border-box;
+    margin-right: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: sticky;
+}
+
+.sidebar ul {
+    list-style: none; 
+    padding: 0;
+}
+
+.sidebar li {
+    margin-bottom: 10px; /* Espacement entre les éléments de liste */
+}
+
+.sidebar a {
+    display: block; /* Pour occuper toute la largeur */
+    color: black; /* Couleur du texte */
+    padding: 10px 15px; /* Espacement intérieur */
+    text-decoration: none; /* Pas de soulignement */
+    border-radius: 5px; /* Coins arrondis */
+    transition: background-color 0.3s; /* Transition fluide pour le changement de couleur de fond */
+}
+
+.sidebar a:hover {
+    color: white;
+    background-color: grey;
+}
+@media screen and (max-width: 480px) {
+
+    .header {
+        flex-direction: column; /* Met les éléments en colonne */
+        align-items: stretch; /* Étire les éléments pour remplir la largeur */
+    }
+    .search-bar {
+        margin-bottom: 1rem;
+        display: flex;
+        align-self: center;
+ 
+    }
+
+
+   
+
+    .container {
+        flex-direction: column; /* Affiche les éléments en colonne */
+        align-items: center; /* Centre les éléments horizontalement */
+    }
+
+    .sidebar {
+        width: 100%; /* Occupe toute la largeur */
+        margin: 0; /* Supprime les marges */
+        
+    }
+
+    .image-container {
+        width: 100%; /* Occupe toute la largeur */
+        
+        
+    }
+
+    .row {
+        display: flex; /* Affiche les éléments en ligne */
+        flex-wrap: wrap; /* Permet le retour à la ligne des éléments si nécessaire */
+        justify-content: center; /* Centre les éléments horizontalement */
+    }
+
+
+}
+
+
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    .image-container .row a {
+        flex: 1 1 calc(33.333% - 1rem);
+    }
+    .header {
+        flex-direction: column; /* Met les éléments en colonne */
+        align-items: stretch; /* Étire les éléments pour remplir la largeur */
+    }
+
+    .container {
+        flex-direction: column;
+    }
+    .search-bar {
+        margin-bottom: 1rem;
+        display: flex;
+        align-self: center;
+ 
+    }
+
+    .sidebar {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 1rem;
+    }
+}
+
+/* Pour les écrans jusqu'à 1024 pixels de large */
+@media screen and (max-width: 1024px) {
+    body {
+        margin: 0 auto;
+    }
+
+    .logo img {
+        width: 100%;
+        height: auto;
+    }
+
+    .image-container .row a {
+        flex: 1 1 calc(50% - 1rem);
+        margin: 1rem;
+        width: 100%;
+    }
+}
